@@ -27,4 +27,3 @@ def fetch_historical_data(symbols, months=6):
         data[sym] = df
         print(f"   {sym}: {len(df)} candles ready")
     return data
-EOF

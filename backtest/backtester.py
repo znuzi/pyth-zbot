@@ -1,6 +1,6 @@
 import pandas as pd
 from data_fetcher import fetch_historical_data
-from config import SYMBOLS, Z_ENTRY, Z_EXIT, POSITION_SIZE_USD
+from bot.config import SYMBOLS, Z_ENTRY, Z_EXIT, POSITION_SIZE_USD, Z_ENTRY, Z_EXIT, POSITION_SIZE_USD
 
 def run_backtest(symbol, data):
     df = data[symbol].copy()
